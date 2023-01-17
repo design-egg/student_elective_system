@@ -1,0 +1,9 @@
+[submodule "web"]
+	path = web
+	url = git@gitlab.com:design-egg/student_elective_system_web.git
+[submodule "design-docker"]
+	path = design-docker
+	url = git@gitlab.com:design-egg/design-docker.git
+[submodule "design-doc"]
+	path = design-doc
+	url = git@gitlab.com:design-egg/design-doc.git

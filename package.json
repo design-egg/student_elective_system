@@ -1,0 +1,83 @@
+{
+  "name": "student_elective_system_server",
+  "version": "0.5.0",
+  "description": "基于MVVM的学生网上自主选课系统-服务端",
+  "private": true,
+  "keywords": [
+    "Egg.js",
+    "koa",
+    "egg",
+    "mysql",
+    "jwt",
+    "JsonWebToken",
+    "node.js"
+  ],
+  "dependencies": {
+    "async": "^3.0.0",
+    "bcryptjs": "^2.4.3",
+    "egg": "^2.22.2",
+    "egg-cors": "^2.2.0",
+    "egg-jwt": "^3.1.6",
+    "egg-mysql": "^3.0.0",
+    "egg-scripts": "^2.11.0",
+    "egg-security": "^2.5.0",
+    "egg-sequelize": "^5.0.0",
+    "egg-swagger2": "^1.0.4",
+    "egg-validate": "^2.0.2",
+    "lodash": "^4.17.11",
+    "mockjs": "^1.0.1-beta3",
+    "moment": "^2.24.0",
+    "mysql2": "^1.6.5",
+    "request": "^2.88.0",
+    "sequelize": "^5.8.6"
+  },
+  "devDependencies": {
+    "autod": "^3.1.0",
+    "autod-egg": "^1.1.0",
+    "cross-env": "^5.2.0",
+    "cz-conventional-changelog": "^2.1.0",
+    "egg-bin": "^4.13.0",
+    "egg-ci": "^1.12.0",
+    "egg-mock": "^3.22.4",
+    "eslint": "^5.16.0",
+    "eslint-config-egg": "^7.4.1",
+    "mocha": "^6.1.4",
+    "mochawesome": "^3.1.2",
+    "sequelize-cli": "^5.4.0",
+    "webstorm-disable-index": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "scripts": {
+    "start": "egg-scripts start --daemon --title=egg-server-egg-server",
+    "stop": "egg-scripts stop --title=egg-server-egg-server",
+    "dev": "egg-bin dev",
+    "debug": "egg-bin debug",
+    "test": "npm run test-local && npm run cov",
+    "test:only": "egg-bin test",
+    "test:data-user": "node test/app/test_data/user.js && node test/app/test_data/login.js",
+    "test:data": "node test/app/test_data/dept.js && node test/app/test_data/major.js && node test/app/test_data/student.js && node test/app/test_data/teacher.js && node test/app/test_data/course.js",
+    "test-local": "cross-env TEST_REPORTER=mochawesome MOCHAWESOME_REPORTFILENAME=index.html egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint ./app/",
+    "ci": "npm run lint && npm run cov",
+    "autod": "autod",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+    "migrate": "npm i -g npx && npx sequelize db:migrate"
+  },
+  "ci": {
+    "version": "8"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "vxhly <pengchengou@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+<<<<<<< HEAD
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50IjoiYWRtaW5AYWRtaW4uY2MiLCJ1c2VyX25hbWUiOiJhZG1pbiIsInJvbGUiOiJBRE1JTiIsInJlbWVtYmVyTWUiOnRydWUsImlhdCI6MTU1ODY3MjY4OSwiZXhwIjoxNTU5Mjc3NDg5fQ.MBedLhreVHlal56IQXqz7Zklns_tehvFfbuBlI5TNNY",
+=======
+<<<<<<< HEAD
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50IjoiYWRtaW5AYWRtaW4uY2MiLCJ1c2VyX25hbWUiOiJhZG1pbiIsInJvbGUiOiJBRE1JTiIsInJlbWVtYmVyTWUiOnRydWUsImlhdCI6MTU1NzU5MDI3NSwiZXhwIjoxNTU4MTk1MDc1fQ.eVfsUodLfLm3AF-x1IrbKa7RfQnHRw9c10KdSOLv6ik",
+=======
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50IjoiYWRtaW5AYWRtaW4uY2MiLCJ1c2VyX25hbWUiOiJhZG1pbiIsInJvbGUiOiJBRE1JTiIsInJlbWVtYmVyTWUiOnRydWUsImlhdCI6MTU1NzgxNDQ0MSwiZXhwIjoxNTU4NDE5MjQxfQ.K1j9Sx0_8Nq4ZZvzPxL5SCJgeNP6xm6wH3p6Bb2SS_A",
+>>>>>>> 5b4ebcb0fca2aad4141736efa54a39ac20819485
+>>>>>>> release/0.5.0
+  "expiration": "168h",
+  "role": "ADMIN"
+}
